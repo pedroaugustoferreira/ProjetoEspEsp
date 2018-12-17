@@ -1,14 +1,17 @@
+#include <ESP8266WiFi.h>
+
+
+
+
 void setup() {
-  pinMode(13, OUTPUT); //DECLARA O PINO 1(GPIO1) COMO SENDO SAÍDA
+
+  Serial.print("AP IP address: ");
+
+
   
 }
 
 
 void loop() {
-  digitalWrite(13, LOW); //LIGA O LED DA PLACA (PINO GPIO1 LIGA COM LÓGICA INVERTIDA)
- 
-  delay(1000); //INTERVALO DE 1 SEGUNDO (1000 MILISEGUNDOS = 1 SEGUNDO)
-  digitalWrite(13, HIGH); //DESLIGA O LED DA PLACA (PINO GPIO1 DESLIGA COM LÓGICA INVERTIDA)
- 
-  delay(1000); //INTERVALO DE 1 SEGUNDO (1000 MILISEGUNDOS = 1 SEGUNDO)
+  Serial.print("AP IP address: ");
 }

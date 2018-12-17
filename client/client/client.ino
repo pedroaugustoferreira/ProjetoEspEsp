@@ -1,7 +1,7 @@
 #include <ESP8266WiFi.h>//Biblioteca do WiFi.
 #include <WiFiUdp.h>//Biblioteca do UDP.
 
- #define RELAY 13
+#define RELAY 13
 
 WiFiUDP udp;//Cria um objeto da classe UDP.
 String req;//String que armazena os dados recebidos pela rede.
